@@ -1,0 +1,46 @@
+<html>
+ <head>
+    <meta charset="utf-8">
+    <title>Debate Circle</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css"  type="text/css/">
+
+    <body>
+     
+      <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    </body>
+    <div class = "container">
+      <h1> <a href= "home.html">Debate Circle</a></h1>
+      <div class="navbar">
+              <div class="navbar-inner">
+                <div class="container">
+                  <ul class="nav">
+                    <li class="active"><a href="home.html">Home</a></li>
+                    <li><a href="backfiles.html">Backfiles</a></li>
+                    <li><a href="coachcorner.html">Coach's Corner</a></li>
+                    <li><a href="topic.html">Topic Discussions</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+
+
+      
+    </div>
+      <div class ="hero-unit">
+        <h1>Welcome to saving the lone wolf!</h1>
+        <p> Debate Circle is intended to make debate inclusive for everyone, no\
+t just those who go to powerful schools, or those who don't understand how deba\
+te works. Debate Circle saves lone wolf debaters the struggles of travelling al\
+one and not understanding circuit debate, and instead transfers it onto one sit\
+e accessible to all. </p>
+      </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</html> 
