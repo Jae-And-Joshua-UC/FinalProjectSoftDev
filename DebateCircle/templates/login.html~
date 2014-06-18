@@ -8,11 +8,6 @@
   <body>
 
     <div id="content">
-
-      {% if type == 1 %}
-      <div class="alert-error"><span class="name">Error:</span> Username/Password combination does not exist</div>
-      {% endif %}
-
       <form method="post">
 	<table class="official">
 	  <tr>

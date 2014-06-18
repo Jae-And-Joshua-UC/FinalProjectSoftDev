@@ -1,39 +1,23 @@
-<!DOCTYPE html>
 <html>
-<head>
+  <head>
+
+    <title>Forum</title>
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/static/more.css" />
+    <script type="text/javascript" src="/static/jquery.js"></script>
 
 
-    <meta charset="utf-8">
-    <title>Logged in Page</title>
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="../static/bootstrap.css"  type="text/css/">
-<link rel="stylesheet" href="../static/basic_style.css" type="text/css/">
-</head>
-    <body>    
-<div class = "container">
-      <h1> Debate Circle</h1>
-    <div class="navbar">
-                  <ul class="nav" id="navbar">
-		    <li class="active"><a href="home.html">Home</a></li>
-                    <li><a href="backfiles.html">Backfiles</a></li>
-                    <li><a href="coachcorner.html">Coach's Corner</a></li>
-                    <li><a href="topic.html">Topic Discussions</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                  </ul>
-            </div>
-
-<h2> <center> Welcome </center> </h2>
-    <div>Logged in as: <strong>{{username}}</strong> </div>
-
-
-      
-      </div>
+  </head>
+  <body>
     
-      </div>
+    {{header|safe}}
 
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.js"></script>
-      </body>
-      </html> 
+    <div class="col-md-2">&nbsp;</div>
+    <div class="col-md-8">
+      {{body|safe}}
+    </div>
+    <div class="col-md-2">&nbsp;</div>
+
+    <script type="text/javascript" src="/static/stuff.js"></script>
+  </body>
+</html>

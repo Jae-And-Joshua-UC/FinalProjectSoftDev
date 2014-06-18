@@ -1,15 +1,38 @@
 <html>
-    <head>
-        <title>Register</title>
-    </head>
-    <body>
-        <h3>Register</h3>
-        
-        <form method = "POST">
-            Username: <input type = "text" name="username"><br>
-            Password: <input type = "password" name = "password"><br>
-            Comfirm Password: <input type = "password" name = "password2"><br>
-            <input type = "submit" value = "Submit">
-        </form>
-    </body>
+  <head>
+
+    <title>Register</title>
+    <link rel="stylesheet" href="/static/style.css" />
+
+  </head>
+  <body>
+
+    <div id="content">
+
+      {% if type == 1 %}
+      <div class="alert-error"><span class="name">Error:</span> Username already in use</div>
+      {% endif %}
+
+      <form method="post">
+	<table class="official">
+	  <tr>
+	    <th>Username</th>
+	    <td><input type="text" name="username" size="12" /></td>
+	  </tr>
+	  <tr>
+	    <th>Password</th>
+	    <td><input type="password" name="password" size="12" /></td>
+	  </tr>
+	  <tr>
+	    <th>Confirm Password</th>
+	    <td><input type="password" name="password2" size="12" /></td>
+	  </tr>
+	  <tr>
+	    <td colspan="2" style="text-align:center;"><input type="submit" name="register" value="Register" /></td>
+	  </tr>
+	</table>
+      </form>
+    </div>
+
+  </body>
 </html>
